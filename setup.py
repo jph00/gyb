@@ -13,7 +13,7 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/jph00/gyb',
-    author='Apple (pip packaged by Jeremy Howard',
+    author='Apple (pip packaged by Jeremy Howard)',
     classifiers=[
         #   3 - Alpha
         #   4 - Beta
