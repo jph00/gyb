@@ -8,7 +8,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f: long_description
 
 setup(
     name='gyb',
-    version='1.0.1',
+    version='1.0.2',
     description="Apple gyb, a simple python-based templating tool",
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -32,7 +32,7 @@ setup(
     ],
 
     keywords='development',
-    py_modules=["gyb"],
-    entry_points={ 'console_scripts': [ 'gyb=gyb:main' ] }
+    py_modules=["gyb", "linedirective"],
+    entry_points={ 'console_scripts': [ 'gyb=gyb:main', 'line-directive=linedirective:main' ] }
 )
 
