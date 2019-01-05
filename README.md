@@ -41,7 +41,7 @@ Define a variable:
 ```
 ## Mapping output lines to template lines
 
-(*Thanks to Dave Abraham for the following explanation and examples.*)
+(*Thanks to Dave Abrahams for the following explanation and examples.*)
 
 `#sourceLocation` is a directive used by tools like the Swift
 compiler and debugger to adjust the lines reported in diagnostics and to
